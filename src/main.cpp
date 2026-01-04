@@ -1,5 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
+
 sf::Vector2f tile2Screen(sf::Vector2f tile, float tileSize) {
 	float x = static_cast<float>((tile.x) * tileSize);
 	float y = static_cast<float>((tile.y) * tileSize);
